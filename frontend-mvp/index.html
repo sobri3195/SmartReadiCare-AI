@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartReadiCare AI — Frontend MVP Concept</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <h1>SmartReadiCare AI</h1>
+        <nav>
+          <a class="active" href="#">Overview</a>
+          <a href="#">Health Checker</a>
+          <a href="#">Recovery</a>
+          <a href="#">Wellness</a>
+          <a href="#">Mental Load</a>
+          <a href="#">Innovation</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <p>Readiness Dashboard</p>
+          <button>Lihat Laporan Mingguan</button>
+        </header>
+
+        <section class="grid two-up">
+          <article class="card gradient">
+            <h2>Unified Readiness Score</h2>
+            <div class="score">78</div>
+            <p>Stable · +6 dibanding minggu lalu</p>
+          </article>
+          <article class="card">
+            <h2>Critical Alerts</h2>
+            <ul>
+              <li><span class="risk high">High</span> Potensi interaksi obat A + suplemen B</li>
+              <li><span class="risk medium">Moderate</span> Peningkatan mental load 3 hari beruntun</li>
+              <li><span class="risk low">Low</span> Rekomendasi hidrasi dan micro-break</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="grid two-up">
+          <article class="card chart">
+            <h2>Recovery Trend (7 Hari)</h2>
+            <div class="bars">
+              <span style="--v: 55"></span><span style="--v: 61"></span><span style="--v: 58"></span>
+              <span style="--v: 66"></span><span style="--v: 68"></span><span style="--v: 72"></span>
+              <span style="--v: 78"></span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Mental Load Heatmap</h2>
+            <div class="heatmap">
+              <span class="lvl1"></span><span class="lvl2"></span><span class="lvl3"></span><span class="lvl2"></span><span class="lvl1"></span>
+              <span class="lvl2"></span><span class="lvl3"></span><span class="lvl4"></span><span class="lvl3"></span><span class="lvl2"></span>
+              <span class="lvl1"></span><span class="lvl2"></span><span class="lvl3"></span><span class="lvl2"></span><span class="lvl1"></span>
+            </div>
+          </article>
+        </section>
+
+        <section class="grid two-up">
+          <article class="card">
+            <h2>Wellness Recommendation</h2>
+            <ol>
+              <li>Breathing 2 menit sebelum meeting penting.</li>
+              <li>Hydration reminder tiap 90 menit.</li>
+              <li>Wind-down rutin 30 menit sebelum tidur.</li>
+            </ol>
+          </article>
+          <article class="card">
+            <h2>Innovation Readiness Quadrant</h2>
+            <p>People: 80 · Energy: 74 · Focus: 69 · Collaboration: 82</p>
+            <p>Fokus perbaikan: manajemen context-switching tim.</p>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
